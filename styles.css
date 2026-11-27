@@ -121,7 +121,7 @@ a:hover { color: var(--ink); }
 }
 .hero h1 {
   margin-block: 1rem 1.35rem;
-  font-size: clamp(4.55rem, 10.6vw, 9.3rem);
+  font-size: clamp(2.35rem, 9.5vw, 7.5rem);
   letter-spacing: -.045em;
   line-height: .87;
 }
@@ -223,6 +223,7 @@ a:hover { color: var(--ink); }
   .hero-art { object-position: 66% 50%; }
   .hero::after { background: linear-gradient(0deg, #100d17 0%, #100d17ec 24%, #100d1766 61%, #100d1724); }
   .hero-content { padding-bottom: 4.15rem; }
+  .hero h1 { font-size: clamp(2.35rem, 11.5vw, 5rem); }
   .overview, .resource-layout { grid-template-columns: minmax(0, 1fr); }
   .resource-layout { margin-top: 1.35rem; }
   .outline { padding: .8rem 1rem; border: 1px solid var(--line); border-radius: .65rem; }
@@ -233,7 +234,6 @@ a:hover { color: var(--ink); }
   .brand-mark { width: 2rem; }
   .header-inner { column-gap: .6rem; }
   .header-nav { gap: .65rem; }
-  .hero h1 { font-size: clamp(2.2rem, 17vw, 4.55rem); }
 }
 
 @media (prefers-reduced-motion: reduce) {
