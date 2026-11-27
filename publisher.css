@@ -1,0 +1,44 @@
+.studio { padding-block: clamp(2.5rem, 7vw, 6.5rem); }
+.studio-intro { padding-bottom: clamp(2.4rem, 6vw, 5rem); }
+.studio-intro h1 {
+  margin-bottom: 1.35rem;
+  font-size: clamp(3.6rem, 11vw, 9rem);
+  letter-spacing: -.065em;
+  line-height: .87;
+}
+.studio-intro h1 span { color: var(--accent); }
+.studio-intro p { font-size: clamp(1rem, 2vw, 1.25rem); }
+.studio-apps { border-top: 1px solid var(--line); padding-top: 1.5rem; }
+.studio-apps h2 { margin-bottom: 1.25rem; font-size: clamp(1.65rem, 4vw, 3rem); letter-spacing: -.035em; }
+.studio-app {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 1.15rem;
+  background: var(--surface);
+}
+.studio-app:focus-within, .studio-app:hover { border-color: var(--accent); }
+.studio-art { position: relative; min-height: 13rem; }
+.studio-art img { position: absolute; width: 100%; height: 100%; object-fit: cover; }
+.studio-art span {
+  position: absolute;
+  inset: auto auto .65rem .65rem;
+  padding: .15rem .5rem;
+  border-radius: .35rem;
+  background: var(--bg);
+  color: var(--muted);
+  font-size: .8rem;
+}
+.studio-product { align-self: center; padding: clamp(1.3rem, 4vw, 3rem); }
+.studio-product img { display: block; width: 4.5rem; height: auto; margin-bottom: 1.15rem; }
+.studio-product h3 { font-size: clamp(1.7rem, 4vw, 3rem); letter-spacing: -.035em; }
+.studio-product p { margin-top: .6rem; }
+.product-link { color: var(--ink); }
+.product-link:hover { color: var(--accent); }
+.product-link::after { position: absolute; inset: 0; content: ""; }
+
+@media (max-width: 44rem) {
+  .studio-app { grid-template-columns: minmax(0, 1fr); }
+}

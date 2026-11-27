@@ -1,0 +1,14 @@
+/PigeonVRPlayer  /PigeonVRPlayer/index.html  200!
+/PigeonVRPlayer/privacy  /PigeonVRPlayer/privacy.html  200!
+/PigeonVRPlayer/support  /PigeonVRPlayer/support.html  200!
+/PigeonVRPlayer/data-deletion  /PigeonVRPlayer/data-deletion.html  200!
+/PigeonVRPlayer/terms  /PigeonVRPlayer/terms.html  200!
+
+/privacy  /PigeonVRPlayer/privacy  301!
+/support  /PigeonVRPlayer/support  301!
+/data-deletion  /PigeonVRPlayer/data-deletion  301!
+/terms  /PigeonVRPlayer/terms  301!
+/privacy.html  /PigeonVRPlayer/privacy  301!
+/support.html  /PigeonVRPlayer/support  301!
+/data-deletion.html  /PigeonVRPlayer/data-deletion  301!
+/terms.html  /PigeonVRPlayer/terms  301!

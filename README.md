@@ -1,8 +1,9 @@
-# PigeonVR Player website
+# Rosetta Studios website
 
-Static website for PigeonVR Player, a VR video player from Rosetta Studios.
+Static HTML and CSS for Rosetta Studios and PigeonVR Player.
 
-- [Live website](https://odgripginger.github.io/PigeonVRPlayer/)
-- [Privacy Policy for Meta Horizon Store](https://odgripginger.github.io/PigeonVRPlayer/privacy)
+- [Rosetta Studios](https://rosettaindia.com/)
+- [PigeonVR Player](https://rosettaindia.com/PigeonVRPlayer)
+- [PigeonVR Player Privacy Policy](https://rosettaindia.com/PigeonVRPlayer/privacy)
 
-GitHub Pages publishes the root of the main branch. The site uses HTML and CSS with no build step. Push to main to publish updates. GitHub Pages serves privacy.html at the extensionless privacy URL.
+Netlify publishes the repository root from main without a build step. The root index.html is the publisher homepage. Edit the app and policy pages in PigeonVRPlayer/. The _redirects file defines the extensionless app routes and preserves the old root policy links.
